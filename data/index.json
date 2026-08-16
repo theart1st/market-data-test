@@ -1,1 +1,36 @@
-{"generated_at_utc":"2026-08-16T09:53:27.203000Z","generated_at_msk":"2026-08-16T12:53:27.203000+03:00","last_fully_closed_15m_bucket_start_utc":"2026-08-16T09:30:00Z","last_fully_closed_15m_bucket_start_msk":"2026-08-16T12:30:00+03:00","source":"Bybit V5 public market API + public WebSocket / linear perpetual","notes":{"bos_choch":"Use only fully closed candles.","daily_buckets":"UTC-aligned 1D aggregation from 15m candles.","oi":"15-minute Bybit open-interest series.","long_short_ratio":"Bybit long/short account-holder ratio, not position-size ratio.","trade_flow":"15m aggressive taker flow from publicTrade; delta = taker Buy turnover - taker Sell turnover.","cvd":"CVD fields are cumulative from the beginning of the requested/report range, not an exchange-provided absolute CVD.","liquidations":"15m allLiquidation aggregation. S=Buy is counted as long liquidation; S=Sell as short liquidation per Bybit documentation.","flow_history":"WebSocket-derived flow/liquidations begin when this collector version starts; earlier history is intentionally absent."},"websocket":{"connected":true,"last_message_utc":"2026-08-16T09:53:27.199000Z","last_error":null},"symbols":["BTCUSDT","ETHUSDT","XRPUSDT","SOLUSDT","BNBUSDT"],"files":{"BTCUSDT":"data/BTCUSDT.json","ETHUSDT":"data/ETHUSDT.json","XRPUSDT":"data/XRPUSDT.json","SOLUSDT":"data/SOLUSDT.json","BNBUSDT":"data/BNBUSDT.json"}}
+{
+  "generated_at_utc": "2026-08-16T10:02:04.982000Z",
+  "generated_at_msk": "2026-08-16T13:02:04.982000+03:00",
+  "last_fully_closed_15m_bucket_start_utc": "2026-08-16T09:45:00Z",
+  "last_fully_closed_15m_bucket_start_msk": "2026-08-16T12:45:00+03:00",
+  "source": "Bybit V5 public market API + public WebSocket / linear perpetual",
+  "notes": {
+    "bos_choch": "Use only fully closed candles.",
+    "daily_buckets": "UTC-aligned 1D aggregation from 15m candles.",
+    "oi": "15-minute Bybit open-interest series.",
+    "long_short_ratio": "Bybit long/short account-holder ratio, not position-size ratio.",
+    "trade_flow": "15m aggressive taker flow from publicTrade; delta = taker Buy turnover - taker Sell turnover.",
+    "cvd": "CVD fields are cumulative from the beginning of the requested/report range, not an exchange-provided absolute CVD.",
+    "liquidations": "15m allLiquidation aggregation. S=Buy is counted as long liquidation; S=Sell as short liquidation per Bybit documentation.",
+    "flow_history": "WebSocket-derived flow/liquidations begin when this collector version starts; earlier history is intentionally absent."
+  },
+  "websocket": {
+    "connected": true,
+    "last_message_utc": "2026-08-16T10:02:04.800000Z",
+    "last_error": null
+  },
+  "symbols": [
+    "BTCUSDT",
+    "ETHUSDT",
+    "XRPUSDT",
+    "SOLUSDT",
+    "BNBUSDT"
+  ],
+  "files": {
+    "BTCUSDT": "data/BTCUSDT.json",
+    "ETHUSDT": "data/ETHUSDT.json",
+    "XRPUSDT": "data/XRPUSDT.json",
+    "SOLUSDT": "data/SOLUSDT.json",
+    "BNBUSDT": "data/BNBUSDT.json"
+  }
+}
