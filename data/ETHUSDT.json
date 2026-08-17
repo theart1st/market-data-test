@@ -1,8 +1,8 @@
 {
-  "generated_at_utc": "2026-08-17T09:02:05.126000Z",
-  "generated_at_msk": "2026-08-17T12:02:05.126000+03:00",
-  "last_fully_closed_15m_bucket_start_utc": "2026-08-17T08:45:00Z",
-  "last_fully_closed_15m_bucket_start_msk": "2026-08-17T11:45:00+03:00",
+  "generated_at_utc": "2026-08-17T09:17:04.659000Z",
+  "generated_at_msk": "2026-08-17T12:17:04.659000+03:00",
+  "last_fully_closed_15m_bucket_start_utc": "2026-08-17T09:00:00Z",
+  "last_fully_closed_15m_bucket_start_msk": "2026-08-17T12:00:00+03:00",
   "source": "Bybit V5 public market API + public WebSocket / linear perpetual",
   "notes": {
     "bos_choch": "Use only fully closed candles.",
@@ -16,44 +16,44 @@
   },
   "websocket": {
     "connected": true,
-    "last_message_utc": "2026-08-17T09:02:04.979000Z",
+    "last_message_utc": "2026-08-17T09:17:04.658000Z",
     "last_error": null
   },
   "symbols": {
     "ETHUSDT": {
       "ticker_rest": {
         "symbol": "ETHUSDT",
-        "ts": 1786957226168,
-        "last_price": 1893.82,
-        "index_price": 1894.5,
-        "mark_price": 1893.82,
+        "ts": 1786958146914,
+        "last_price": 1896.79,
+        "index_price": 1897.39,
+        "mark_price": 1896.88,
         "high_24h": 1911.77,
         "low_24h": 1867.89,
-        "volume_24h": 643331.09,
-        "turnover_24h": 1216317434.2065,
-        "open_interest": 755001.21,
-        "open_interest_value": 1429836391.52,
+        "volume_24h": 648114.14,
+        "turnover_24h": 1225396703.3603,
+        "open_interest": 753995.87,
+        "open_interest_value": 1430239685.89,
         "funding_rate": 0.0001,
         "next_funding_time": 1786982400000,
-        "utc": "2026-08-17T09:00:26.168000Z",
-        "msk": "2026-08-17T12:00:26.168000+03:00",
+        "utc": "2026-08-17T09:15:46.914000Z",
+        "msk": "2026-08-17T12:15:46.914000+03:00",
         "next_funding_utc": "2026-08-17T16:00:00Z",
         "next_funding_msk": "2026-08-17T19:00:00+03:00"
       },
       "ticker_realtime_ws": {
-        "ts": 1786957324674,
-        "utc": "2026-08-17T09:02:04.674000Z",
-        "msk": "2026-08-17T12:02:04.674000+03:00",
-        "last_price": 1894.7,
-        "mark_price": 1894.9,
-        "index_price": 1895.52,
-        "open_interest": 754757.64,
-        "open_interest_value": 1430190252.04,
+        "ts": 1786958224374,
+        "utc": "2026-08-17T09:17:04.374000Z",
+        "msk": "2026-08-17T12:17:04.374000+03:00",
+        "last_price": 1896.02,
+        "mark_price": 1896.08,
+        "index_price": 1896.81,
+        "open_interest": 754076.57,
+        "open_interest_value": 1429789502.85,
         "funding_rate": 0.0001,
         "high_24h": 1911.77,
         "low_24h": 1867.89,
-        "volume_24h": 644321.3,
-        "turnover_24h": 1218193758.0776
+        "volume_24h": 648160.44,
+        "turnover_24h": 1225485763.4253
       },
       "candles_1d": [
         {
@@ -1347,17 +1347,6 @@
         }
       ],
       "candles_1h": [
-        {
-          "ts": 1786352400000,
-          "open": 1925.84,
-          "high": 1926.48,
-          "low": 1915.21,
-          "close": 1915.57,
-          "volume": 25754.96,
-          "turnover": 49423775.7965,
-          "utc": "2026-08-10T09:00:00Z",
-          "msk": "2026-08-10T12:00:00+03:00"
-        },
         {
           "ts": 1786356000000,
           "open": 1915.57,
@@ -3197,17 +3186,6 @@
         }
       ],
       "candles_15m": [
-        {
-          "ts": 1786698000000,
-          "open": 1877.91,
-          "high": 1877.97,
-          "low": 1874.35,
-          "close": 1875.68,
-          "volume": 3776.83,
-          "turnover": 7083678.2534,
-          "utc": "2026-08-14T09:00:00Z",
-          "msk": "2026-08-14T12:00:00+03:00"
-        },
         {
           "ts": 1786698900000,
           "open": 1875.68,
@@ -6364,15 +6342,20 @@
           "turnover": 16157632.6486,
           "utc": "2026-08-17T08:45:00Z",
           "msk": "2026-08-17T11:45:00+03:00"
+        },
+        {
+          "ts": 1786957200000,
+          "open": 1893.61,
+          "high": 1896.89,
+          "low": 1893.61,
+          "close": 1896.1,
+          "volume": 5522.28,
+          "turnover": 10466426.5571,
+          "utc": "2026-08-17T09:00:00Z",
+          "msk": "2026-08-17T12:00:00+03:00"
         }
       ],
       "open_interest_15m": [
-        {
-          "ts": 1786698000000,
-          "oi": 753367.1,
-          "utc": "2026-08-14T09:00:00Z",
-          "msk": "2026-08-14T12:00:00+03:00"
-        },
         {
           "ts": 1786698900000,
           "oi": 753311.58,
@@ -8094,6 +8077,12 @@
           "oi": 755388.37,
           "utc": "2026-08-17T08:45:00Z",
           "msk": "2026-08-17T11:45:00+03:00"
+        },
+        {
+          "ts": 1786957200000,
+          "oi": 754926.75,
+          "utc": "2026-08-17T09:00:00Z",
+          "msk": "2026-08-17T12:00:00+03:00"
         }
       ],
       "funding_history": [
@@ -8729,14 +8718,6 @@
         }
       ],
       "long_short_account_ratio_15m": [
-        {
-          "ts": 1786698000000,
-          "buy_ratio": 0.6834,
-          "sell_ratio": 0.3166,
-          "long_short_ratio": 2.158559696778269,
-          "utc": "2026-08-14T09:00:00Z",
-          "msk": "2026-08-14T12:00:00+03:00"
-        },
         {
           "ts": 1786698900000,
           "buy_ratio": 0.6836,
@@ -11032,6 +11013,14 @@
           "long_short_ratio": 2.1104199066874028,
           "utc": "2026-08-17T08:45:00Z",
           "msk": "2026-08-17T11:45:00+03:00"
+        },
+        {
+          "ts": 1786957200000,
+          "buy_ratio": 0.6787,
+          "sell_ratio": 0.3213,
+          "long_short_ratio": 2.1123560535325243,
+          "utc": "2026-08-17T09:00:00Z",
+          "msk": "2026-08-17T12:00:00+03:00"
         }
       ],
       "trade_flow_15m": [
@@ -13426,6 +13415,29 @@
           "last_trade_utc": "2026-08-17T08:59:59.864000Z",
           "utc": "2026-08-17T08:45:00Z",
           "msk": "2026-08-17T11:45:00+03:00"
+        },
+        {
+          "ts": 1786957200000,
+          "buy_qty": 3539.1200000000035,
+          "sell_qty": 1983.1599999999983,
+          "buy_turnover": 6707496.903100002,
+          "sell_turnover": 3758929.653999998,
+          "trade_count": 8482,
+          "block_trade_count": 0,
+          "rpi_trade_count": 0,
+          "first_trade_ts": 1786957200408,
+          "last_trade_ts": 1786958098484,
+          "total_qty": 5522.280000000002,
+          "total_turnover": 10466426.5571,
+          "delta_qty": 1555.9600000000053,
+          "delta_turnover": 2948567.249100004,
+          "taker_buy_pct_turnover": 64.08583547122784,
+          "cvd_qty_from_range_start": 57190.01000000035,
+          "cvd_turnover_from_range_start": 108467322.11089998,
+          "first_trade_utc": "2026-08-17T09:00:00.408000Z",
+          "last_trade_utc": "2026-08-17T09:14:58.484000Z",
+          "utc": "2026-08-17T09:00:00Z",
+          "msk": "2026-08-17T12:00:00+03:00"
         }
       ],
       "liquidations_15m": [
@@ -13925,7 +13937,7 @@
       ],
       "flow_coverage": {
         "trade_flow_start_utc": "2026-08-16T07:00:00Z",
-        "trade_flow_latest_bucket_utc": "2026-08-17T09:00:00Z",
+        "trade_flow_latest_bucket_utc": "2026-08-17T09:15:00Z",
         "liquidations_start_utc": "2026-08-16T11:15:00Z",
         "liquidations_latest_bucket_utc": "2026-08-17T08:45:00Z"
       }
