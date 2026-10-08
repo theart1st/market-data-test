@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-10-08T19:16:33.718000Z",
-  "generated_at_msk": "2026-10-08T22:16:33.718000+03:00",
+  "generated_at_utc": "2026-10-08T19:17:00.613000Z",
+  "generated_at_msk": "2026-10-08T22:17:00.613000+03:00",
   "last_fully_closed_15m_bucket_start_utc": "2026-10-08T19:00:00Z",
   "last_fully_closed_15m_bucket_start_msk": "2026-10-08T22:00:00+03:00",
   "source": "Bybit V5 public market API + public WebSocket / linear perpetual",
@@ -16,7 +16,7 @@
   },
   "websocket": {
     "connected": true,
-    "last_message_utc": "2026-10-08T19:16:33.696000Z",
+    "last_message_utc": "2026-10-08T19:17:00.599000Z",
     "last_error": null
   },
   "symbols": {
@@ -41,19 +41,19 @@
         "next_funding_msk": "2026-10-09T03:00:00+03:00"
       },
       "ticker_realtime_ws": {
-        "ts": 1791486993583,
-        "utc": "2026-10-08T19:16:33.583000Z",
-        "msk": "2026-10-08T22:16:33.583000+03:00",
-        "last_price": 81487.3,
-        "mark_price": 81498.92,
-        "index_price": 81523.64,
-        "open_interest": 58377.148,
-        "open_interest_value": 4757674514.68,
-        "funding_rate": 7.164e-05,
+        "ts": 1791487020483,
+        "utc": "2026-10-08T19:17:00.483000Z",
+        "msk": "2026-10-08T22:17:00.483000+03:00",
+        "last_price": 81543.8,
+        "mark_price": 81543.8,
+        "index_price": 81566.45,
+        "open_interest": 58380.156,
+        "open_interest_value": 4760539764.83,
+        "funding_rate": 7.317e-05,
         "high_24h": 83576.5,
         "low_24h": 80350.1,
-        "volume_24h": 89066.653,
-        "turnover_24h": 7307326793.3579
+        "volume_24h": 89071.413,
+        "turnover_24h": 7307714834.6765
       },
       "candles_1d": [
         {
