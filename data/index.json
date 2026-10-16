@@ -1,23 +1,24 @@
 {
-  "generated_at_utc": "2026-10-10T22:02:00.628000Z",
-  "generated_at_msk": "2026-10-11T01:02:00.628000+03:00",
-  "last_fully_closed_15m_bucket_start_utc": "2026-10-10T21:45:00Z",
-  "last_fully_closed_15m_bucket_start_msk": "2026-10-11T00:45:00+03:00",
+  "generated_at_utc": "2026-10-16T08:21:46.820Z",
+  "generated_at_msk": "2026-10-16T11:21:46.820+03:00",
+  "last_fully_closed_15m_bucket_start_utc": "2026-10-16T08:00:00.000Z",
+  "last_fully_closed_15m_bucket_start_msk": "2026-10-16T11:00:00.000+03:00",
   "source": "Bybit V5 public market API + public WebSocket / linear perpetual",
   "notes": {
-    "bos_choch": "Use only fully closed candles.",
-    "daily_buckets": "UTC-aligned 1D aggregation from 15m candles.",
+    "bos_choch": "Only use fully closed candles.",
+    "daily_buckets": "Native UTC 1D candles from Bybit REST.",
     "oi": "15-minute Bybit open-interest series.",
-    "long_short_ratio": "Bybit long/short account-holder ratio, not position-size ratio.",
-    "trade_flow": "15m aggressive taker flow from publicTrade; delta = taker Buy turnover - taker Sell turnover.",
-    "cvd": "CVD fields are cumulative from the beginning of the requested/report range, not an exchange-provided absolute CVD.",
-    "liquidations": "15m allLiquidation aggregation. S=Buy is counted as long liquidation; S=Sell as short liquidation per Bybit documentation.",
-    "flow_history": "WebSocket-derived flow/liquidations begin when this collector version starts; earlier history is intentionally absent."
+    "long_short_ratio": "Account-holder ratio, NOT position size.",
+    "trade_flow": "PublicTrade Buy turnover minus Sell turnover.",
+    "cvd": "Cumulative from start of available range, not absolute exchange CVD.",
+    "liquidations": "Bybit allLiquidation; S=Buy long liquidation; S=Sell short liquidation.",
+    "flow_history": "WebSocket-only; gaps cannot be backfilled here."
   },
   "websocket": {
-    "connected": true,
-    "last_message_utc": "2026-10-10T22:02:00.604000Z",
-    "last_error": null
+    "connected": false,
+    "last_message_utc": null,
+    "last_error": null,
+    "connected_at_utc": null
   },
   "symbols": [
     "BTCUSDT",
@@ -32,5 +33,6 @@
     "XRPUSDT": "data/XRPUSDT.json",
     "SOLUSDT": "data/SOLUSDT.json",
     "BNBUSDT": "data/BNBUSDT.json"
-  }
+  },
+  "publication_note": "A symbol JSON may lag if per-symbol REST failed; validate its generated_at_utc and final candle timestamp."
 }
