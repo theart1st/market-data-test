@@ -1,8 +1,8 @@
 {
-  "generated_at_utc": "2026-10-16T08:39:20.705Z",
-  "generated_at_msk": "2026-10-16T11:39:20.705+03:00",
-  "last_fully_closed_15m_bucket_start_utc": "2026-10-16T08:15:00.000Z",
-  "last_fully_closed_15m_bucket_start_msk": "2026-10-16T11:15:00.000+03:00",
+  "generated_at_utc": "2026-10-16T08:55:49.480Z",
+  "generated_at_msk": "2026-10-16T11:55:49.480+03:00",
+  "last_fully_closed_15m_bucket_start_utc": "2026-10-16T08:30:00.000Z",
+  "last_fully_closed_15m_bucket_start_msk": "2026-10-16T11:30:00.000+03:00",
   "source": "Bybit V5 public market API + public WebSocket / linear perpetual",
   "notes": {
     "bos_choch": "Only use fully closed candles.",
@@ -12,13 +12,13 @@
     "trade_flow": "PublicTrade Buy turnover minus Sell turnover.",
     "cvd": "Cumulative from start of available range, not absolute exchange CVD.",
     "liquidations": "Bybit allLiquidation; S=Buy long liquidation; S=Sell short liquidation.",
-    "flow_history": "WebSocket-only; gaps cannot be backfilled here."
+    "flow_history": "WebSocket-only. Coverage is observation-based; CVD segmented, partial buckets excluded."
   },
   "websocket": {
-    "connected": true,
-    "last_message_utc": "2026-10-16T08:39:20.646Z",
+    "connected": false,
+    "last_message_utc": null,
     "last_error": null,
-    "connected_at_utc": "2026-10-16T08:24:21.408Z"
+    "connected_at_utc": null
   },
   "symbols": [
     "BTCUSDT",
