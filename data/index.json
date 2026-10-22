@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-10-22T15:52:18.005Z",
-  "generated_at_msk": "2026-10-22T18:52:18.005+03:00",
+  "generated_at_utc": "2026-10-22T15:56:12.388Z",
+  "generated_at_msk": "2026-10-22T18:56:12.388+03:00",
   "last_fully_closed_15m_bucket_start_utc": "2026-10-22T15:30:00.000Z",
   "last_fully_closed_15m_bucket_start_msk": "2026-10-22T18:30:00.000+03:00",
   "source": "Bybit V5 public market API + public WebSocket / linear perpetual",
@@ -15,10 +15,10 @@
     "flow_history": "WebSocket-only. Coverage is observation-based; CVD segmented, partial buckets excluded."
   },
   "websocket": {
-    "connected": true,
-    "last_message_utc": "2026-10-22T15:52:18.007Z",
+    "connected": false,
+    "last_message_utc": null,
     "last_error": null,
-    "connected_at_utc": "2026-10-21T23:51:24.234Z"
+    "connected_at_utc": null
   },
   "symbols": [
     "BTCUSDT",
