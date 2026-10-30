@@ -1,8 +1,8 @@
 {
-  "generated_at_utc": "2026-10-30T06:11:13.460Z",
-  "generated_at_msk": "2026-10-30T09:11:13.460+03:00",
-  "last_fully_closed_15m_bucket_start_utc": "2026-10-30T05:45:00.000Z",
-  "last_fully_closed_15m_bucket_start_msk": "2026-10-30T08:45:00.000+03:00",
+  "generated_at_utc": "2026-10-30T06:26:13.461Z",
+  "generated_at_msk": "2026-10-30T09:26:13.461+03:00",
+  "last_fully_closed_15m_bucket_start_utc": "2026-10-30T06:00:00.000Z",
+  "last_fully_closed_15m_bucket_start_msk": "2026-10-30T09:00:00.000+03:00",
   "source": "Bybit V5 public market API + public WebSocket / linear perpetual",
   "notes": {
     "bos_choch": "Only use fully closed candles.",
@@ -16,7 +16,7 @@
   },
   "websocket": {
     "connected": true,
-    "last_message_utc": "2026-10-30T06:11:13.412Z",
+    "last_message_utc": "2026-10-30T06:26:13.449Z",
     "last_error": null,
     "connected_at_utc": "2026-10-30T05:48:07.437Z"
   },
