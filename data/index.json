@@ -1,8 +1,8 @@
 {
-  "generated_at_utc": "2026-11-09T01:11:14.275Z",
-  "generated_at_msk": "2026-11-09T04:11:14.275+03:00",
-  "last_fully_closed_15m_bucket_start_utc": "2026-11-09T00:45:00.000Z",
-  "last_fully_closed_15m_bucket_start_msk": "2026-11-09T03:45:00.000+03:00",
+  "generated_at_utc": "2026-11-09T01:26:14.275Z",
+  "generated_at_msk": "2026-11-09T04:26:14.275+03:00",
+  "last_fully_closed_15m_bucket_start_utc": "2026-11-09T01:00:00.000Z",
+  "last_fully_closed_15m_bucket_start_msk": "2026-11-09T04:00:00.000+03:00",
   "source": "Bybit V5 public market API + public WebSocket / linear perpetual",
   "notes": {
     "bos_choch": "Only use fully closed candles.",
@@ -16,9 +16,9 @@
   },
   "websocket": {
     "connected": true,
-    "last_message_utc": "2026-11-09T01:11:14.262Z",
+    "last_message_utc": "2026-11-09T01:26:14.227Z",
     "last_error": null,
-    "connected_at_utc": "2026-11-08T21:56:52.317Z"
+    "connected_at_utc": "2026-11-09T01:15:58.925Z"
   },
   "symbols": [
     "BTCUSDT",
