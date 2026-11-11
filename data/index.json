@@ -1,8 +1,8 @@
 {
-  "generated_at_utc": "2026-11-11T07:26:14.517Z",
-  "generated_at_msk": "2026-11-11T10:26:14.517+03:00",
-  "last_fully_closed_15m_bucket_start_utc": "2026-11-11T07:00:00.000Z",
-  "last_fully_closed_15m_bucket_start_msk": "2026-11-11T10:00:00.000+03:00",
+  "generated_at_utc": "2026-11-11T07:41:14.519Z",
+  "generated_at_msk": "2026-11-11T10:41:14.519+03:00",
+  "last_fully_closed_15m_bucket_start_utc": "2026-11-11T07:15:00.000Z",
+  "last_fully_closed_15m_bucket_start_msk": "2026-11-11T10:15:00.000+03:00",
   "source": "Bybit V5 public market API + public WebSocket / linear perpetual",
   "notes": {
     "bos_choch": "Only use fully closed candles.",
@@ -15,10 +15,10 @@
     "flow_history": "WebSocket-only. Coverage is observation-based; CVD segmented, partial buckets excluded."
   },
   "websocket": {
-    "connected": false,
-    "last_message_utc": "2026-11-11T07:25:54.729Z",
-    "last_error": "Connection to remote host was lost.",
-    "connected_at_utc": "2026-11-10T13:31:17.331Z"
+    "connected": true,
+    "last_message_utc": "2026-11-11T07:41:14.510Z",
+    "last_error": null,
+    "connected_at_utc": "2026-11-11T07:26:55.574Z"
   },
   "symbols": [
     "BTCUSDT",
